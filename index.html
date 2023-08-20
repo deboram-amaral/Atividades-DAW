@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- tipo de linguagem e legibilidade em qualquer idioma -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- adequar ao tamanho da tela do client (responsividade) -->
+
+    <title>Bem vindos!</title>
+</head>
+<body>
+    <basefont face="Georgia">
+    <h1><font size="7">Introdução a Desenvolvimento Web com HTML</font></h1>
+    <hr>
+    <h2 id="inicio">Sumário</h2>
+        <ol><font size="3">
+            <li><a href="#intro">Introdução</a></li>
+            <li><a href="#Estrutura">Estrutura Básica HTML</a></li>
+            <li><a href="#tags">TAGs de texto</a></li>
+            <li><a href="#listas">Listas Ordenadas e Não ordenadas</a></li>
+            <li><a href="#links">Links</a></li>
+        </font> </ol>
+
+    <h2 id="intro">1. Introdução</h2>
+    <small> <a href="#inicio">Voltar</a></small>
+
+    <p>Essa página tem como objetivo reunir alguns conhecimentos básicos sobre HTML, fundamentais para qualquer pessoa que está iniciando no mundo da <i>programação web.</i> Vale ressaltar que o editor de código utilizado como referência neste conteúdo é o VSCode. Espero que goste!</p>
+
+    <h2 id="Estrutura">2. Estrutura Básica HTML</h2>
+    <small> <a href="#inicio">Voltar</a></small>
+
+    <p>Os códigos em HTML são formados, basicamente, por tags e atributos. As principais tags que definem a estrutura básico do código são: "< html >", "< head >" e "< body >". Assim como a maioria das tags HTML, essas precisam ser fechadas. Observe: </p>
+
+    <img src="file:///C:/Users/55819/Downloads/GetImage%20(5).png" alt="Estrutura Básica" width="500">
+
+    <p>A tag <strong>< html ></strong> define os limites do código em específico. A tag <strong>< head ></strong>  se refere ao que precisa ser processado antes de carregar para o usuário. Já a tag <strong>< body ></strong>, mostra tudo que vai ser exibido para o usuário. Ou seja, tudo que será exibido, fica no meio, antes do fechamento da tag (< / body >).</p>
+
+    <p>Na tag <strong>< head ></strong> é possível definir o título da página. Ou seja, o texto que será exibido na aba, quando aberta via web. Para isso, utilizados a tag <strong>< title ></strong>, observe:</p>
+    <img src="file:///C:/Users/55819/Downloads/GetImage%20(6).png" alt="title" width="500">
+
+    <h2 id="tags">3. TAGs de texto</h2>
+    <small> <a href="#inicio">Voltar</a></small>
+
+    <p>Dentro do body (tudo que será exibido ao usuário) é possível inserir títulos, subtítulos, parágrafos, citações, imagens e uma gama de outros elementos. Aqui falaremos das principais tags de <span style="background-color: yellow;">texto</span>. </p>
+
+    <h3>Falando sobre os h's</h3>
+    <p>Utilizamos os h's para títulos e subtítulos. Sâo 6 opções (h1 ao h6) e o que muda entre eles é o tamanho. Logo, você pode colocar o título principal da sua página no h1 e depois subtítulos num tamanho um pouco menor, por exemplo, utilizando os demais níveis. Exemplo: <strong><i> < h1 > Desenvolvimento WEB com HTML < / h1 >   /   < h2 > Tudo que você precisa saber para desenvolver uma página na internet utilizando HTML! < / h2 ></i></strong></p>
+
+    <h3>Parágrafos</h3>
+    <p>Para inserir parágrafos, utilizamos a tag <strong>< p ></strong>. Exemplo: <strong><i>< p > insira seu parágrafo aqui < / p > </i></strong>. </p>
+
+    <h3>Citações</h3>
+    <p>Para inserir citações, utilizamos a tag <strong> < blockquote ></strong>.</p> Dessa forma, o texto ficará com uma margem maior à esquerda, configurando uma citação. Exemplo: <strong><i> < blockquote > insira sua citação aqui < / blockquote > </i></strong>.
+
+    <h3>Itálico, negrito e sublinhado</h3>
+    <ul>
+        <li>Para deixar o texto em <span style="background-color: yellow;">itálico</span>, utilizamos a tag <strong> < i > </strong>. Exemplo: <strong><i>< bloquequote > < i > insira seu subtítulo aqui < / i > < / bloquewuote > </i></strong>. </li>
+        <li>Para deixar o texto em <span style="background-color: yellow;">negrito</span></li>, utilizamos a tag <strong> < strong > </strong>. Exemplo: <strong><i> < p > < strong > insira seu parágrafo aqui < / strong > < / p > </i></strong>. </li>
+        <li>Para deixar o texto <span style="background-color: yellow;">sublinhado</span></li>, utilizamos a tag <strong> < u > </strong>. Exemplo: <strong><i> < h2 > < u > insira seu subtítulo aqui < / u > < / h2 ></i></strong>. </li>
+    </ul>
+
+    <h2 id="listas">4. Listas Ordenadas e Não Ordenadas</h2>
+    <small> <a href="#inicio">Voltar</a></small>
+
+    <h3>Ordenadas</h3>
+    <p> Nas listas <strong>ordenadas</strong>, os ítens são numerados em órdem crescente. Para inserir uma lista ordenada, utilizamos a tags < ol > para iniciar a lista e < li > ao início de cada ítem. Exemplo: <br> 
+       <strong><i>
+        < ol > <br>
+        < li > Ítem 1 < / li > <br>
+        < li > Ítem 2 < / li > <br>
+        < li > Ítem 3 < / li > <br>
+        < / ol >
+    </i></strong>
+</p>
+
+    <h3>Não ordenadas</h3>
+    <p>Nas listas <strong>não ordenadas</strong>, os ítens recebem indicadores. No caso do html, com uma bolinha (tópico). Para inserir uma lista não ordenada, utilizamos as tags < ul > para iniciar a lista e < li > ao início de cada ítem. Exemplo: <br> 
+        <strong><i>
+            < ul > <br>
+            < li > Ítem 1 < / li > <br>
+            < li > Ítem 2 < / li > <br>
+            < li > Ítem 3 < / li > <br>
+            < / ul >
+        </i></strong>
+    </p>
+    
+    <h2 id="links">5. Links</h2>
+    <small> <a href="#inicio">Voltar</a></small>
+    
+    <p>Para inserir um link utilizados a tag <strong>< a href="cole aqui o endereço do site"> insira aqui o texto que será exibido para o usuário (encurtador) < / a ></strong>. O "a" da tag vem âncora. Ou seja, o link vai ancorar em algum lugar. Utilizando a tag, quando você abrir sua página no navegador e clicar no encurtador do link, será direcionado para o endereço na mesma página. Caso queira que abra em uma página diferente, pode utilizar a tag <strong>< target = " blank " > </strong>.</p>
+
+    <h2>Observações e agradecimentos</h2>
+    <p>Chegamos ao fim da nossa página! Reforço que esses conhecimentos são básicos, para a criação de uma página web simples. Para incrementar, pode combinar o código com elementos de JavaScript e CSS. Obrigada por ler até aqui, espero que tenha gostado. Até mais!</p>
+
+    </basefont>
+</body>
+</html>
